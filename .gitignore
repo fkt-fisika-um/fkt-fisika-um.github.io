@@ -8,10 +8,24 @@ _site/
 # Bundler
 vendor/bundle/
 .bundle/
-Gemfile.lock
+# Gemfile.lock  # biarkan tergantung kebijakan
 
 # OS & Editor
 .DS_Store
 Thumbs.db
 *.swp
 *.swo
+
+# Logs
+*.log
+logs/
+
+# Environment variables
+.env
+.env.local
+
+# IDE
+.idea/
+.vscode/
+*.sublime-project
+*.sublime-workspace
