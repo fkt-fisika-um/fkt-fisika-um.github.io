@@ -1,0 +1,27 @@
+title: Fisika Komputasi & Teoritik (FKT)
+email: fkt@um.ac.id
+description: "Kelompok Bidang Keahlian Fisika Komputasi dan Teoritik, Universitas Negeri Malang"
+url: "https://fkt-fisika-um.github.io"
+baseurl: ""
+
+# Jekyll settings
+markdown: GFM
+theme: minima  # tema sederhana, bisa diganti nanti
+plugins:
+  - jekyll-feed
+  - jekyll-sitemap
+
+# Navigasi
+navigation:
+  - title: Beranda
+    url: /
+  - title: Tentang
+    url: /tentang/
+  - title: Anggota
+    url: /anggota/
+  - title: Proyek
+    url: /proyek/
+  - title: Publikasi
+    url: /publikasi/
+  - title: Blog
+    url: /blog/

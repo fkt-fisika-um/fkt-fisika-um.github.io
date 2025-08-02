@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>{% if page.title %}{{ page.title }} - {{ site.title }}{% else %}{{ site.title }}{% endif %}</title>
+    <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
+    <link rel="icon" href="{{ '/assets/images/favicon.png' | relative_url }}" type="image/png">
+  </head>
+  <body>
+    <header>
+      <div class="nav">
+        <h1><a href="{{ '/' | relative_url }}">{{ site.title }}</a></h1>
+        <nav>
+          {% for item in site.navigation %}
+            <a href="{{ item.url | relative_url }}">{{ item.title }}</a>
+          {% endfor %}
+        </nav>
+      </div>
+    </header>
+
+    <main class="page-content">
+      {{ content }}
+    </main>
+
+    <footer>
+      <p>&copy; {{ 'now' | date: "%Y" }} {{ site.title }} - {{ site.description }}</p>
+      <p>Email: {{ site.email }}</p>
+    </footer>
+  </body>
+</html>
