@@ -4,14 +4,21 @@ description: "Kelompok Bidang Keahlian Fisika Komputasi dan Teoritik, Universita
 url: "https://fkt-fisika-um.github.io"
 baseurl: ""
 
-# Jekyll settings
+# Tema Minimal Mistakes
+theme: minimal-mistakes-jekyll
+minimal_mistakes_skin: default
+
+# Repository (opsional)
+repository: fkt-fisika-um/fkt-fisika-um.github.io
+
+# Markdown
 markdown: kramdown
 kramdown:
-  input: GFM  # Tetap bisa menulis Markdown ala GitHub (GFM)
+  input: GFM
   hard_wrap: false
   syntax_highlighter: rouge
 
-theme: minima  # tema sederhana, bisa diganti nanti
+# Plugin
 plugins:
   - jekyll-feed
   - jekyll-sitemap
