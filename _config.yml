@@ -5,7 +5,12 @@ url: "https://fkt-fisika-um.github.io"
 baseurl: ""
 
 # Jekyll settings
-markdown: GFM
+markdown: kramdown
+kramdown:
+  input: GFM  # Tetap bisa menulis Markdown ala GitHub (GFM)
+  hard_wrap: false
+  syntax_highlighter: rouge
+
 theme: minima  # tema sederhana, bisa diganti nanti
 plugins:
   - jekyll-feed
