@@ -43,5 +43,3 @@ permalink: /anggota/
     Topik: Dinamika Termal, Metode Numerik</p>
   </div>
 </div>
-
-<p>Kami terbuka untuk mahasiswa S2/S3 yang tertarik riset di bidang fisika komputasi. Hubungi: <a href="mailto:fkt@um.ac.id">fkt@um.ac.id</a></p>
