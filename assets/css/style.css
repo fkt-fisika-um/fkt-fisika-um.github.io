@@ -156,15 +156,11 @@ a:hover {
   object-fit: cover;
 }
 
-.anggota-item p strong {
-  display: block;
-  white-space: nowrap;
-  font-size: 1rem;
-}
-
 .anggota-item p {
   margin-top: 0.5rem;
+  font-size: 0.95rem;
   line-height: 1.4;
-  white-space: normal; /* topik boleh wrap, nama tidak */
+  white-space: nowrap;       /* mencegah baris turun */
+  overflow: hidden;          /* sembunyikan teks berlebih */
+  text-overflow: ellipsis;   /* tambahkan "..." jika terlalu panjang */
 }
-
