@@ -4,13 +4,26 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     <title>{% if page.title %}{{ page.title }} - {{ site.title }}{% else %}{{ site.title }}{% endif %}</title>
+    
+    <!-- Slick Carousel CSS -->
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css"/>
+    
+    <!-- Custom CSS -->
     <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
+    
+    <!-- Favicon -->
     <link rel="icon" href="{{ '/assets/images/favicon.png' | relative_url }}" type="image/png">
+
+    {% include head.html %}
   </head>
   <body>
     <header>
       <div class="nav">
-        <h1><a href="{{ '/' | relative_url }}">{{ site.title }}</a></h1>
+        <div class="logo-title">
+          <img src="{{ '/assets/images/logo/fkt.jpg' | relative_url }}" alt="Logo" class="logo" />
+          <span class="site-title">FKT-Fisika</span>
+        </div>
         <nav>
           {% for item in site.navigation %}
             <a href="{{ item.url | relative_url }}">{{ item.title }}</a>
@@ -18,6 +31,7 @@
         </nav>
       </div>
     </header>
+
 
     <main class="page-content">
       {{ content }}
@@ -27,5 +41,28 @@
       <p>&copy; {{ 'now' | date: "%Y" }} {{ site.title }} - {{ site.description }}</p>
       <p>Email: {{ site.email }}</p>
     </footer>
+
+    {% include footer.html %}
+
+    <!-- jQuery -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+    <!-- Slick Carousel JS -->
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+
+    <!-- Inisialisasi Slider -->
+    <script>
+      $(document).ready(function(){
+        $('.slider').slick({
+          dots: true,
+          infinite: true,
+          speed: 500,
+          autoplay: true,
+          autoplaySpeed: 3000,
+          arrows: true,
+          adaptiveHeight: true
+        });
+      });
+    </script>
   </body>
 </html>
