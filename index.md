@@ -16,13 +16,13 @@ title: Beranda
 
 <div class="slider" style="max-width: 900px; margin: 2rem auto;">
   <div>
-    <img src="{{ '/assets/images/slides/slide1.jpg' | relative_url }}" alt="Slide 1" style="width:100%">
+    <img src="{{ '/assets/images/slides/1.jpg' | relative_url }}" alt="Slide 1" style="width:100%">
   </div>
   <div>
-    <img src="{{ '/assets/images/slides/slide2.jpg' | relative_url }}" alt="Slide 2" style="width:100%">
+    <img src="{{ '/assets/images/slides/2.jpg' | relative_url }}" alt="Slide 2" style="width:100%">
   </div>
   <div>
-    <img src="{{ '/assets/images/slides/slide3.jpg' | relative_url }}" alt="Slide 3" style="width:100%">
+    <img src="{{ '/assets/images/slides/3.jpg' | relative_url }}" alt="Slide 3" style="width:100%">
   </div>
 </div>
 
