@@ -31,3 +31,7 @@ logs/
 *.sublime-workspace
 erb
 erb
+
+.sass-cache/
+*.sass-cache
+.cache/

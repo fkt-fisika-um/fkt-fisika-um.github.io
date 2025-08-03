@@ -5,7 +5,7 @@ url: "https://fkt-fisika-um.github.io"
 baseurl: ""
 
 # Tema Minimal Mistakes
-theme: minima
+# theme: minima
 
 # Repository (opsional)
 repository: fkt-fisika-um/fkt-fisika-um.github.io
