@@ -11,7 +11,7 @@ permalink: /anggota/
   <div class="anggota-item">
     <img src="/assets/images/dosen/EnyLatifah.jpg" alt="Dr. Eny Latifa, S.Si., M.Si." class="anggota-foto">
     <p><strong>Dr. Eny Latifa, S.Si., M.Si.</strong><br>
-    Topik: Fisika Statistik, Mesin panas kuantum</p>
+    Fisika Statistik, Mesin panas kuantum</p>
   </div>
   <div class="anggota-item">
     <img src="/assets/images/dosen/HafizhPrihtiadi.jpg" alt="Dr. Hafizh Prihtiadi, S.Si., M.Si." class="anggota-foto">
@@ -34,7 +34,7 @@ permalink: /anggota/
 <div class="anggota-grid">
   <div class="anggota-item">
     <img src="/assets/images/mahasiswa/adi.jpg" alt="Adi Saputra" class="anggota-foto">
-    <p><strong>Adi Saputra</strong><br>
+    <p><strong>Sugeng</strong><br>
     Topik: Simulasi Kuantum, Quantum Neural Network</p>
   </div>
   <div class="anggota-item">
