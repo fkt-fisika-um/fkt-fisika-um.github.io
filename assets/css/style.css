@@ -132,3 +132,25 @@ a:hover {
   font-style: italic;
   color: yellow;
 }
+
+.anggota-grid {
+  display: flex;
+  gap: 2rem;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 2rem;
+}
+
+.anggota-item {
+  text-align: center;
+  width: 200px;
+}
+
+.anggota-foto {
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 50%; /* bikin bulat */
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  margin-bottom: 1rem;
+}
