@@ -19,7 +19,7 @@ permalink: /anggota/
     Partikel energi tinggi, Instrumentasi</p>
   </div>
   <div class="anggota-item">
-    <img src="/assets/images/dosen/Nugroho.jpg" alt="Nugroho Adi Pramono, S.Si., M.Si." class="anggota-foto">
+    <img src="/assets/images/dosen/AtsaitaYasrina.jpg" alt="Atsnaita Yasrina, S.Si., M.Si." class="anggota-foto">
     <p><strong>Nugroho Adi Pramono, S.Si., M.Si.</strong><br>
     Simulasi fisika, machine learning</p>
   </div>
